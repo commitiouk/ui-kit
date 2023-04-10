@@ -1,0 +1,83 @@
+{
+  "name": "@commitiouk/ui-kit",
+  "version": "0.0.0-development",
+  "description": "UI Kit for Commitio",
+  "author": "oyelsv+commitiouk@gmail.com",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ui-kit",
+    "react",
+    "storybook"
+  ],
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "semantic-release": "semantic-release",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -o ./storybook-static"
+  },
+  "publishConfig": {
+    "tag": "latest",
+    "access": "public",
+    "@commitiouk:registry": "https://registry.npmjs.org/"
+  },
+  "repository": "https://github.com/commitiouk/ui-kit",
+  "homepage": "https://github.com/commitiouk/ui-kit#readme",
+  "bugs": {
+    "url": "https://github.com/commitiouk/ui-kit/issues"
+  },
+  "browserslist": [
+    "> 0.25%, not dead"
+  ],
+  "sideEffects": false,
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-angular": "^12.1.4",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@storybook/addon-actions": "^7.0.2",
+    "@storybook/addon-essentials": "^7.0.2",
+    "@storybook/addon-interactions": "^7.0.2",
+    "@storybook/addon-links": "^7.0.2",
+    "@storybook/builder-webpack4": "^6.5.16",
+    "@storybook/manager-webpack4": "^6.5.16",
+    "@storybook/react": "^7.0.2",
+    "@storybook/testing-library": "^0.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "babel-loader": "^8.2.5",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-storybook": "^0.5.12",
+    "husky": "^4.3.8",
+    "lint-staged": "^8.0.4",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "semantic-release": "^21.0.0",
+    "typescript": "^4.5.0"
+  },
+  "dependencies": {
+    "@commitiouk/icons": "^1.2.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "@commitiouk/icons": "^1.2.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
