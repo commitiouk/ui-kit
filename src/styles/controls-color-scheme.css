@@ -1,0 +1,75 @@
+:root {
+  --control-sm-text: 12px;
+  --control-sm-radius: 6px;
+  --control-sm-height: 28px;
+  --control-sm-padding: 0 10px;
+
+  --control-md-text: 14px;
+  --control-md-radius: 6px;
+  --control-md-height: 32px;
+  --control-md-padding: 0 12px;
+
+  /* Primary button colors */
+  --control-primary-default-text: #ffffff;
+  --control-primary-default-bg: #1f883d;
+  --control-primary-default-bg-hover: #1a7f37;
+  --control-primary-default-border: rgba(31, 35, 40, 0.15);
+  --control-primary-default-border-hover: rgba(31, 35, 40, 0.15);
+  --control-primary-default-shadow: 0 1px 0 rgba(31, 35, 40, 0.1);
+  --control-primary-default-shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  --control-primary-default-bg-selected: hsla(137, 66%, 28%, 1);
+  --control-primary-default-shadow-selected: inset 0 1px 0 rgba(0, 45, 17, 0.2);
+
+  --control-primary-danger-text: #ffffff;
+  --control-primary-danger-bg: #cf222e;
+  --control-primary-danger-bg-hover: #a40e26;
+  --control-primary-danger-border: rgba(31, 35, 40, 0.15);
+  --control-primary-danger-border-hover: rgba(31, 35, 40, 0.15);
+  --control-primary-danger-shadow: 0 1px 0 rgba(31, 35, 40, 0.1);
+  --control-primary-danger-shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  --control-primary-danger-bg-selected: #a90a24;
+  --control-primary-danger-shadow-selected: inset 0 1px 0 rgba(0, 45, 17, 0.2);
+
+  /* Secondary button colors */
+  --control-secondary-default-text: #24292f;
+  --control-secondary-default-text-hover: #24292f;
+  --control-secondary-default-bg-selected: #24292f;
+  --control-secondary-default-bg: #f6f8fa;
+  --control-secondary-default-bg-hover: #f3f4f6;
+  --control-secondary-default-bg-selected: hsla(220, 14%, 93%, 1);
+  --control-secondary-default-border: rgba(31, 35, 40, 0.15);
+  --control-secondary-default-border-hover: rgba(31, 35, 40, 0.15);
+  --control-secondary-default-border-selected: rgba(31, 35, 40, 0.15);
+  --control-secondary-default-shadow: 0 1px 0 rgba(31, 35, 40, 0.04);
+  --control-secondary-default-shadow-hover: 0 1px 0 rgba(31, 35, 40, 0.04);
+  --control-secondary-default-shadow-selected: 0 1px 0 rgba(31,35,40,0.04), inset 0 1px 0 rgba(255,255,255,0.25);
+  --control-secondary-default-shadow-inset-hover: inset 0 1px 0 rgba(31, 35, 40, 0.04);
+
+  --control-secondary-info-text: #0969da;
+  --control-secondary-info-text-hover: #ffffff;
+  --control-secondary-info-text-selected: #ffffff;
+  --control-secondary-info-bg: #f6f8fa;
+  --control-secondary-info-bg-hover: #0969da;
+  --control-secondary-info-bg-selected: #0965ce;
+  --control-secondary-info-border: rgba(31, 35, 40, 0.15);
+  --control-secondary-info-border-hover: rgba(31, 35, 40, 0.15);
+  --control-secondary-info-border-selected: rgba(31, 35, 40, 0.15);
+  --control-secondary-info-shadow: 0 1px 0 rgba(31, 35, 40, 0.04);
+  --control-secondary-info-shadow-hover: 0 1px 0 rgba(31, 35, 40, 0.1);
+  --control-secondary-info-shadow-selected: inset 0 1px 0 rgba(0, 33, 85, 0.2);
+  --control-secondary-info-shadow-inset-hover: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+
+  --control-secondary-danger-text: #cf222e;
+  --control-secondary-danger-text-hover: #ffffff;
+  --control-secondary-danger-text-selected: #ffffff;
+  --control-secondary-danger-bg: #f6f8fa;
+  --control-secondary-danger-bg-hover: #a40e26;
+  --control-secondary-danger-bg-selected: #c11f2a;
+  --control-secondary-danger-border: rgba(31, 35, 40, 0.15);
+  --control-secondary-danger-border-hover: rgba(31, 35, 40, 0.15);
+  --control-secondary-danger-border-selected: rgba(31, 35, 40, 0.15);
+  --control-secondary-danger-shadow: 0 1px 0 rgba(31, 35, 40, 0.04);
+  --control-secondary-danger-shadow-hover: 0 1px 0 rgba(31, 35, 40, 0.1);
+  --control-secondary-danger-shadow-selected: inset 0 1px 0 rgba(0, 33, 85, 0.2);
+  --control-secondary-danger-shadow-inset-hover: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
