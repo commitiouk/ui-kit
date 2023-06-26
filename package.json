@@ -18,7 +18,7 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o storybook-static",
-    "lint": "eslint components/ --fix",
+    "lint": "eslint src/ --fix",
     "semantic-release": "semantic-release"
   },
   "publishConfig": {
